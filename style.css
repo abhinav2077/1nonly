@@ -156,7 +156,7 @@ html,body{
 
 .page2{
     width: 100%;
-    min-height: 180vh;
+    min-height: 160vh;
     background-color: black;
 }
 
@@ -305,5 +305,8 @@ html,body{
 @media(max-width: 800px){
     .model{
         display: block;
+    }
+    .page2{
+        min-height: 200vh;
     }
 }
